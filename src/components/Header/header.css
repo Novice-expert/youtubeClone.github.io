@@ -1,0 +1,119 @@
+
+.header{
+   padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 3rem;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+   }
+   
+.headerLeft{
+     height: 100%;
+     /* border: 1px solid black; */
+     width: 15rem;
+     display: flex;
+     flex-direction: row;
+   }
+   
+   
+.headerMiddle{
+     height: 100%;
+     width: 40%;
+     display: flex;
+     flex-direction: row;
+     border-radius: 4rem;
+  
+   }
+   
+.headerRight{
+     width: 15rem;
+     height: 100%;
+     /* border: 1px solid black; */
+
+     display: flex;
+     flex-direction: row;
+   }
+
+.hamburgerContainer{
+  height: 100%;
+  width: 20%;
+  background-color: white;
+}
+
+.logoContainer{
+  height: 100%;
+  width: 80%;
+}
+
+.hamburger{
+  height: 100%;
+  width: 4rem;
+}
+
+.youtube{
+  height: 100%;
+  width: 10rem;
+}
+.inputBox{
+  height: 100%;
+  /* border: 1px solid black; */
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  width: 95%;
+}
+
+.searchContainer{
+  height: 100%;
+  /* border: 1px solid black; */
+ border-top-right-radius: 4rem;
+ border-bottom-right-radius: 4rem;
+  width: 8%;
+
+}
+
+.searchBox{
+  font-size: 1.2rem;
+  height: 82%;
+  width: 99%;
+  overflow: hidden;
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+}
+.search{
+  height: 90%;
+  width: 2.5rem;
+  overflow: hidden;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  border: 1.2px solid black;
+}
+.icon{
+  height: 100%;
+  width: 25%;
+  /* border: 1px solid black; */
+}
+.mic{
+  height: 65%;
+  width: 70%;
+  padding: .4rem;
+}
+
+.camera{
+  height: 100%;
+  width: 100%;
+}
+
+.bell{
+  height: 100%;
+  width: 100%;
+}
+
+.profile{
+  height: 100%;
+  width: 100%;
+}

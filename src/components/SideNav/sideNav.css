@@ -1,0 +1,68 @@
+
+.parent{
+     display: flex;
+     flex-direction: column;
+     height: 30rem;
+     gap: .5rem;
+     /* border: 2px solid black; */
+    }
+    
+.row{
+    /* border: 1px solid black; */
+    border-radius: .8rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.icon{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 100%;
+
+}
+.menu{
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+.homeIcon{
+    height: 100%;
+    width:2.5rem;;
+}
+.shortsIcon{
+    height: 100%;
+    width:2.5rem;
+}
+.subscriptionIcon{
+    height: 100%;
+    width:2.5rem;
+}
+.libraryIcon{
+    height: 100%;
+    width:2.5rem;
+}
+.historyIcon{
+    height: 100%;
+    width:2.5rem;
+}
+.yourVideosIcon{
+    height: 100%;
+    width:2.5rem;
+}
+.watchLaterIcon{
+    height: 100%;
+    width:2.5rem;
+}
+.likedVideosIcon{
+    height: 100%;
+    width:2.5rem;
+}
+.row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}

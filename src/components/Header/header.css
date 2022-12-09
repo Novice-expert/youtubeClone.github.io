@@ -1,15 +1,17 @@
 
 .header{
+  margin-left: 1rem;
    padding: .5rem;
     display: flex;
     justify-content: space-between;
-    width: 98%;
+    width: 95%;
     height: 3rem;
     gap: 2rem;
     position: sticky;
     top: 0;
     z-index: 100;
     background-color: white;
+    /* border: 1px solid black; */
    }
    
 .headerLeft{
@@ -18,6 +20,8 @@
      width: 15rem;
      display: flex;
      flex-direction: row;
+     
+  
    }
    
    
@@ -40,6 +44,7 @@
    }
 
 .hamburgerContainer{
+  padding: .2rem;
   height: 100%;
   width: 20%;
   background-color: white;
@@ -48,17 +53,33 @@
 .logoContainer{
   height: 100%;
   width: 80%;
+  background-color: white;
 }
 
 .hamburger{
-  height: 100%;
+  height: 95%;
   width: 4rem;
+  margin-left: -.7rem;
+  /* border: 1px solid black; */
+
+}
+
+.hamburger:hover {
+  background-color: lightgrey;
+  cursor: pointer;
 }
 
 .youtube{
   height: 100%;
   width: 10rem;
+  margin-top: .3rem;
+  margin-left: -.2rem;
 }
+
+.youtube:hover{
+  cursor: pointer;
+}
+
 .inputBox{
   height: 100%;
   /* border: 1px solid black; */
@@ -91,6 +112,7 @@
   border-top-right-radius: 4rem;
   border-bottom-right-radius: 4rem;
   border: 1.2px solid black;
+  
 }
 .icon{
   height: 100%;
@@ -98,9 +120,11 @@
   /* border: 1px solid black; */
 }
 .mic{
-  height: 65%;
-  width: 70%;
+  margin-top: .3rem;
+  height: 55%;
+  width: 60%;
   padding: .4rem;
+  margin-left: .5rem;
 }
 
 .camera{
@@ -109,11 +133,31 @@
 }
 
 .bell{
-  height: 100%;
-  width: 100%;
+  margin-top: .2rem;
+  height: 85%;
+  width: 90%;
 }
 
 .profile{
-  height: 100%;
-  width: 100%;
+  height: 75%;
+  width: 70%;
+  margin-left: -.3rem;
+  margin-top: .35rem;
+}
+
+.mic:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.camera:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.bell:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.profile:hover{
+  background-color: lightgrey;
+  cursor: pointer;
 }

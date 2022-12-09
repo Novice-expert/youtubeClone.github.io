@@ -40,27 +40,35 @@
 }
 .subscriptionIcon{
     height: 100%;
-    width:2.5rem;
+    width:2rem;
+    margin-left: .2rem;
+
 }
 .libraryIcon{
-    height: 100%;
-    width:2.5rem;
+    height: 95%;
+    width:2.2rem;
+    margin-left: .1rem;
 }
 .historyIcon{
-    height: 100%;
-    width:2.5rem;
+    height: 85%;
+    width:2rem;
+    margin-left: .2rem;
 }
 .yourVideosIcon{
-    height: 100%;
-    width:2.5rem;
+    height: 90%;
+    width:2rem;
+    margin-left: .15rem;
 }
 .watchLaterIcon{
-    height: 100%;
-    width:2.5rem;
+    height: 85%;
+    width:2rem;
+    margin-left: .15rem;
 }
 .likedVideosIcon{
-    height: 100%;
-    width:2.5rem;
+    height: 110%;
+    width:2.8rem;
+    margin-left: -.2rem;
+    margin-top: -.3rem;
 }
 .row:hover{
     background-color: lightgray;
